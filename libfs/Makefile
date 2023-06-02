@@ -1,6 +1,6 @@
 lib := libfs.a
 objs := fs.o disk.o
-CFLAGS := -Wall -Wextra -Werror -MMD
+CFLAGS := -Wall -Wextra -Werror
 
 # Don't print the commands unless explicitly requested with `make V=1`
 ifneq ($(V),1)
